@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>StarBucks.com</title>
+</head>
+
+<body>
+    <section>
+        <div class="circle"> </div>
+        <!-- nav bar using logo and menu on top -->
+        <header>
+            <a href="#"> <img src="logo.png" alt="logo" class="logo"></a>
+            <ul>
+                <li><a href="#"> Home</a></li>
+                <li><a href="#"> Menu</a></li>
+                <li><a href="#"> What's New</a></li>
+                <li><a href="#"> Contact Us</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>Its not just a Coffee<br> It's <span> StarBucks</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui veniam autem cum suscipit deleniti
+                    architecto soluta reprehenderit dicta? Nisi, vero. Labore cum corporis totam necessitatibus atque et
+                    recusandae, pariatur distinctio.</p>
+                <a href="#">LEARN MORE</a>
+
+                <div class="imgbox">
+                    <img src="img1.png" alt="img1" class="StarBucks">
+                </div>
+            </div>
+        </div>
+        <div class="thumb">
+            <li><img src="thumb1.png" alt="thumb"  onclick="imgSlider('img1.png')"></li>
+            <li><img src="thumb2.png" alt="thumb"  onclick="imgSlider('img2.png')"></li>
+            <li><img src="thumb3.png" alt="thumb" onclick="imgSlider('img3.png')"></li>
+        </div>
+        <ul class="social">
+            <li><a href="#"><img src="facebook.png" alt="fb"></a></li>
+            <li><a href="#"><img src="instagram.png" alt="insta"></a></li>
+            <li><a href="#"><img src="twitter.png" alt="tweet"></a></li>
+        </ul>
+    </section>
+  <script type="text/javascript">
+  function imgSlider(anything){
+      document.querySelector('.StarBucks').src=anything;
+  }
+
+  </script>
+</body>
+
+</html>

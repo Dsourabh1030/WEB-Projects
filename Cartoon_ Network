@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://localhost:8383/HTML5Application/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Cartoon Network</title>
+       
+        <style type="text/css">
+          body{ 
+             background-repeat:no-repeat;
+             font-family: Roboto;
+             font-size: 16px;
+             center:center;
+             background-size:1500px 900px;
+             }
+          table{ border: 1px solid;
+             width: 100%;
+             border-collapse: collapse;
+}         
+       th, td{
+           padding: 10px;
+           border: 1px solid black;
+           height: 20px;
+           text-align: left;
+       }
+       div{
+           border: 1px solid;
+           margin-top: 5px;
+           padding: 20px;
+           
+       }
+       #left{
+           float: left;
+           border: none;
+           
+       }
+       #right{
+           float: right;
+           border: none;
+           
+       }
+      
+       .thumbnail {
+            display: inline-block;
+            height: auto;
+            
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-collapse: collapse;
+            text-align: center;
+            color: #666;
+   
+
+}
+
+        </style>  
+    </head>
+    <body>
+          <img src="./Cartoon Network_files/cartoonicon.jpg">
+       <h4>Most liked <b>Cartoon Channel</b> of <u>90's kids</u> and till now.</h4>
+       <p>There were many cartoons but I liked <b>Tom&amp;Jerry and Ben10.</b></p>
+       
+       <div id="left">
+       <h2>Best Cartoons Characters </h2>
+       There were many Cartoons characters and some of my liked cartoons were:
+       <ul>   
+          <li>Adventure Time.</li>
+          <li> The Power puff Girls.</li>
+          <li> Johnny Bravo.</li>
+          <li> Tom&amp;Jerry</li>
+          <li>  Dexter's Laboratory.</li>
+          <li>  Courage the Cowardly Dog.</li>
+          <li> The Grim Adventures of Billy.</li>
+          <li>  Ben 10.</li>
+       </ul>
+       </div> 
+       
+        <div id="right">
+          <h2> Cartoon Network's 8 Best Animated Series</h2>
+          <ol type="I">    
+             <li>Kim Possible (2002)</li>
+             <li>X-Men: The Animated Series (1992) 
+             </li><li>The Simpsons (1989) </li>
+             <li>Justice League (2001)</li>
+             <li>Animaniacs (1993)</li>
+             <li>Spongebob Squarepants (1999)</li>
+             <li>Batman:The Animated Series</li>
+             <li>Avatar:The Last Airbender</li>
+           </ol>  
+        </div>
+       
+      <table>
+           <tbody>
+               <tr>
+                   <th> Cartoon </th>
+                   <th> Cartoon Character </th>
+                   <th> Year  </th>
+               </tr>
+               <tr> 
+                   <td>Tom &amp; Jerry</td>
+                   <td> Tom and Jerry</td>
+                   <td> 1940</td>
+               
+               </tr>
+               <tr> 
+                   <td>Micky Mouse</td>
+                   <td> Micky</td>
+                   <td> 1928</td>
+               
+               </tr>
+               <tr> 
+                   <td>Popeye the Sailor</td>
+                   <td> Popeye and Brutus</td>
+                   <td> 1933</td>
+               
+               </tr>
+               <tr> 
+                   <td> Looney Tunes</td>
+                   <td> Bunny</td>
+                   <td> 1930</td>
+               
+               </tr>
+           </tbody>
+       </table>
+      
+       <div id="Cartoons">
+            <h2> Most Liked Cartoon Character</h2> 
+            <div class="thumbnail"> 
+
+                    <img src="./Cartoon Network_files/Tom&amp;Jerry.jpg" alt="Tom &amp; Jerry">
+
+                    <h4> Tom &amp; Jerry <br> (1940) </h4>
+
+  </div>
+
+ <div class="thumbnail">
+                    <img src="./Cartoon Network_files/popoye.jpg" alt="Popoye The Sailor Man">
+
+                    <h4> Popoye The Sailor Man <br> (1933) </h4>
+
+ </div>
+
+ <div class="thumbnail">
+                    <img src="./Cartoon Network_files/pingu.jpg" alt="Pingu Penguin">
+
+                    <h4> Pingu Penguin<br> (1990) </h4>
+
+ </div>
+ <div class="thumbnail">
+                    <img src="./Cartoon Network_files/Ben10.jpg" alt="Ben10">
+
+                    <h4> Ben 10<br> (2005) </h4>
+
+ </div>
+ <div class="thumbnail">
+                    <img src="./Cartoon Network_files/bobthebuilder.jpg" alt="bobthebuilder">
+
+                    <h4> Bob the Builder<br> (1998) </h4>
+
+ </div>
+ 
+           
+           
+       </div>
+     
+
+</body></html>

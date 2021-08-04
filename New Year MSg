@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head> 
+<title> HAPPY NEW YEAR</title>
+<style>
+h1{
+   margin-top:200px;
+   margin-top:200px;
+	 margin-top:200px;
+	 margin-bottom:0;
+	 padding-bottom:30px;
+ }
+ h2{
+    padding-bottom:50px;
+	margin:70px;
+   }
+@keyframes blinking {
+  0% {
+    background-color: #ff3d50;
+    color: #ddd;
+  }
+  100% {
+    background-color: #222291;
+    color: #fff;
+  }
+}
+#demo {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 10px;
+  /* NAME | TIME | ITERATION */
+  animation: blinking 1s infinite;
+}
+</style>
+<body>
+<center>
+<div id="demo">
+  
+  <h1> HAPPY NEW YEAR <br> <h2>WELCOME 2021!!!! <br><br> GOOD BYE 2020!!!</h2></h1>
+  </center>
+  </div>
+    <a href="blink.html">See your Future</a>
+</body>
+</html>

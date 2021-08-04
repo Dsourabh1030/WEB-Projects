@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <title>WhatsApp</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+    
+        }
+
+        .logo {
+            height: 200px;
+            /* border: 2px solid rgb(18, 143, 130); */
+            background-color: rgb(18, 143, 130);
+        }
+
+        .logo img {
+            display: inline;
+            margin-top: 30px;
+            margin-left: 150px;
+            width: 60px;
+            height: 60px;
+        }
+
+        .logo p {
+            font-family: 'Segoe UI';
+
+            color: honeydew;
+            margin-left: 250px;
+            margin-top: -50px;
+            font-size: 15px;
+        }
+
+        .box {
+            height: 1000px;
+            /* border: 2px solid black; */
+            background-color: black;
+            margin-top: -150px;
+        }
+
+        .content {
+            height: 800px;
+            margin-left: 150px;
+            margin-right: 150px;
+            background-color: white;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        .content p {
+            padding-top: 50px;
+            margin-top: 150px;
+            margin-left: 45px;
+            font-size: 30px;
+            font-family: 'Segoe UI';
+        }
+
+        .content ul {
+            margin-top: 50px;
+            margin-left: 45px;
+            font-size: 25px;
+            font-family: 'Segoe UI';
+            list-style: none;
+        }
+
+        .content li {
+            padding: 15px;
+        }
+
+        .content li a {
+            padding-top: 30px;
+            font-size: 15px;
+            margin-left: 50px;
+            color: rgb(18, 143, 130);
+        }
+
+        .barcode {
+            display: inline-block;
+            margin-left: 700px;
+            margin-top: -700px;
+            /* border: 2px solid black; */
+        }
+
+        .barcode img {
+            height: 300px;
+            width: 300px;
+        }
+
+        input {
+            margin-top: 20px;
+            letter-spacing: 2px;
+            margin-left: 800px;
+
+        }
+
+        input span {
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="whatsapp-logo-1.png" alt="WhatsApp">
+            <p><b>WHATSAPP WEB</b></p>
+        </div>
+        <div class="box">
+            <div class="content">
+                <p>To use Whatsapp on your Computer:</p>
+                <div class="lsit">
+                    <ul>
+                        <li>1. Open WhatsApp on your Phone</li>
+                        <li>2. Tap Menu or Setting and Select Whatsapp Web</li>
+                        <li>3. Point on your phone to this screen to capture code</li>
+                        <li><a href="#"> Need help to get Started?</a></li>
+                    </ul>
+                </div>
+                <div class="barcode">
+                    <img src="barcode.png" alt="barcode">
+                </div><br>
+                <input type="checkbox" name="" id="Sigin"> <span>Keep me Sigined in</span>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

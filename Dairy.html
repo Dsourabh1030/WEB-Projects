@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Dairy-Milk Shop</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* border: 2px solid black; */
+            font-family: Reggae One;
+
+        }
+
+        .header {
+            background: #E0EAFC;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #CFDEF3, #E0EAFC);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to left, #CFDEF3, #E0EAFC);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        h2 {
+            cursor: pointer;
+            margin: 25px;
+            border-right: 1px solid black;
+            border-bottom: 3px solid black;
+            padding: 20px;
+            border-radius: 10px;
+            font-weight: bolder;
+            font-size: 25px;
+        }
+
+        h2:hover {
+            cursor: pointer;
+            margin: 25px;
+            color: cornflowerblue;
+            border-right: 1px solid black;
+            border-bottom: 3px solid black;
+            padding: 20px;
+            border-radius: 10px;
+            font-weight: bolder;
+            font-size: 25px;
+        }
+
+        .menu {
+            /* border: 2px solid black; */
+            display: flex;
+            cursor: pointer;
+            flex-direction: end;
+            margin-top: 10px;
+            justify-content: end;
+            align-items: center;
+        }
+
+        .menu li {
+            border-right: 1px solid black;
+            border-bottom: 3px solid black;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            padding: 10px;
+            display: inline-block;
+            margin: 15px;
+            font-weight: bold;
+            font-size: 25px;
+            border-radius: 10px;
+            /* background-color: cornflowerblue; */
+
+        }
+
+        .menu li:hover {
+            border-right: 1px solid black;
+            border-bottom: 3px solid black;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            padding: 10px;
+            display: inline-block;
+            margin: 15px;
+            font-weight: bold;
+            background-color: cornflowerblue;
+            font-size: 25px;
+            border-radius: 10px;
+            /* background-color: cornflowerblue; */
+
+        }
+
+        .menu li a {
+            text-decoration: none;
+            color: cyan;
+        }
+
+        img {
+            border-left: 1px solid black;
+            border-top: 3px solid black;
+            margin-left: 20px;
+            border-radius: 10px;
+        }
+
+        .introduction {
+            background: #E0EAFC;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #CFDEF3, #E0EAFC);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to left, #CFDEF3, #E0EAFC);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+            .introduction p {
+                width: 900px;
+                margin: 40px;
+                /* border: 1px solid black */
+            }
+
+            h3 {
+                margin-left: 60px;
+                text-decoration: underline;
+            }
+
+            .introduction img {
+                /* border: 4px solid green; */
+                /* display: inline-block; */
+                margin-left: 950px;
+                margin-top: -200px;
+            }
+
+            .introduction img:hover {
+                box-shadow: 0 0 8px 4px green;
+
+            }
+
+            .products a {
+                margin: 10px;
+                text-decoration: none;
+                display: inline-block;
+            }
+
+            .products img {
+                border: 2px solid #ddd;
+                border-radius: 4px;
+                padding: 5px;
+                margin: 20px;
+                width: 450px;
+            }
+
+            img:hover {
+                box-shadow: 0 0 2px 1px yellow;
+            }
+
+            .products h3 {
+                margin-left: 100px;
+                text-decoration: none;
+            }
+
+            .product-list {
+                border: 1px solid #333;
+                border-radius: 20px;
+                padding: 10px;
+                margin: 7px;
+                background: #fd746c;
+                /* fallback for old browsers */
+                background: -webkit-linear-gradient(to left, #ff9068, #fd746c);
+                /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to left, #ff9068, #fd746c);
+                /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            }
+
+            table {
+                margin: 30px;
+
+            }
+
+            table,
+            th,
+            td {
+                border: 1px solid black;
+
+            }
+
+            table {
+
+                width: 90%;
+                margin-left: 50px;
+                cursor: pointer;
+                padding: 15px;
+            }
+
+            table th {
+                padding: 10px;
+            }
+
+            table td {
+                font-family: cursive;
+                padding: 10px;
+            }
+
+            .contactus {
+                margin: 30px;
+                text-align: center;
+                font-size: 20px;
+
+            }
+
+            .contact {
+                border: 2px solid black;
+                border-radius: 30px;
+            }
+
+            .contact button {
+                border-radius: 10px;
+                padding: 10px;
+                margin: 20px;
+
+
+            }
+
+            .contact input {
+                width: 35%;
+                padding: 20px;
+                text-align: center;
+
+            }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="menu">
+            <img src="cow-removebg.png" alt="logo">
+            <h2>MILK- BOOTH</h2>
+            <ul>
+                <li><a href="Dairy.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="Order.html">Orders</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="main">
+        <div class="introduction">
+            <h2>Introduction</h2>
+            <p>Milk is a nutrient-rich liquid food produced by the mammary glands of mammals. It is the primary source
+                of nutrition for young mammals, including breastfed human infants before they are able to digest solid
+                food. </p>
+            <h3> Benifits of Drinking Milk </h3> <img src="milk.jpg" alt="milk">
+            <p> It's packed with important nutrients like <b>Calcium, Phosphorus, B Vitamins, Potassium and Vitamin D
+                </b>. Plus, it's an excellent source of protein. Drinking milk and dairy products may prevent
+                osteoporosis and bone fractures and even help you maintain a healthy weight.</p>
+
+        </div>
+
+    </div>
+    <hr>
+    <div class="products">
+        <h2>Products</h2>
+        <div class="product-list">
+            <a target="_blank" href="milk.jpg"> <img src="milk.jpg" alt="Milk" style="width:250px">
+                <h3> Fresh Milk </h3>
+            </a>
+            <a target="_blank" href="curd.jpg"> <img src="curd.jpg" alt="Milk" style="width:250px">
+                <h3>Fresh Curd </h3>
+            </a>
+            <a target="_blank" href="buttermilk.jpg"> <img src="buttermilk.jpg" alt="ButterMilk" style="width:250px">
+                <h3>Fresh ButterMilk </h3>
+            </a>
+            <a target="_blank" href="paneer.jpg"> <img src="paneer.jpg" alt="paneer" style="width:250px">
+                <h3>Fresh Paneer</h3>
+
+            </a><a target="_blank" href="ghee.jpg"> <img src="ghee.jpg" alt="ghee" style="width:250px">
+                <h3>Fresh Ghee</h3>
+            </a>
+            </a><a target="_blank" href="icecream.jpg"> <img src="icecream.jpg" alt="icecream" style="width:250px">
+                <h3>Delicious Icecream</h3>
+            </a>
+            </a><a target="_blank" href="cheese.jpg"> <img src="cheese.jpg" alt="cheese" style="width:250px">
+                <h3>Fresh cheese</h3>
+            </a>
+            </a><a target="_blank" href="butter.jpg"> <img src="butter.jpg" alt="butter" style="width:250px">
+                <h3>Fresh Butter</h3>
+            </a>
+            <hr>
+            <h3 style="text-align: center;"> Products</h3>
+            <p style="margin-left: 50px; text-align: center;"> Select Product From list Below:</p>
+            <div class="ratelist">
+                <div class="milklist">
+                    <p style="margin-left: 100px; font-family: cursive; font-size: large; font-weight: bold;"> Product
+                        -[ Milk ]</p>
+                    <table>
+                        <tr>
+                            <th>S NO</th>
+                            <th>Brand</th>
+                            <th>500ml</th>
+                            <th>1 ltr</th>
+                            <th>2 ltr</th>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">1.</td>
+                            <td>Amul Full Cream Milk</td>
+                            <td>Rs.28</td>
+                            <td>Rs.58</td>
+                            <td>Rs.108</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">2.</td>
+                            <td>Amul Toned Milk</td>
+                            <td>Rs.24</td>
+                            <td>Rs.48</td>
+                            <td>Rs.96</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">3.</td>
+                            <td>Namaste Full Cream Milk</td>
+                            <td>Rs.28</td>
+                            <td>Rs.58</td>
+                            <td>Rs.108</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">4.</td>
+                            <td>Namaste Toned Milk</td>
+                            <td>Rs.24</td>
+                            <td>Rs.48</td>
+                            <td>Rs.96</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">5.</td>
+                            <td>Mother Dairy Full Cream Milk</td>
+                            <td>Rs.28</td>
+                            <td>Rs.58</td>
+                            <td>Rs.108</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">6.</td>
+                            <td>Mother Dairy Toned Milk</td>
+                            <td>Rs.24</td>
+                            <td>Rs.48</td>
+                            <td>Rs.96</td>
+                        </tr>
+                    </table>
+                </div> <br><br>
+                <div class="curd-list">
+                    <p style="margin-left: 100px; font-family: cursive; font-size: large; font-weight: bold;"> Product
+                        -[ Curd ]</p>
+                    <table>
+                        <tr>
+                            <th>S NO</th>
+                            <th>Brand</th>
+                            <th>250g</th>
+                            <th>500g</th>
+                            <th>1 ltr</th>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">1.</td>
+                            <td>Amul Curd</td>
+                            <td>Rs.15</td>
+                            <td>Rs.28</td>
+                            <td>Rs.60</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">2.</td>
+                            <td>Namaste Curd</td>
+                            <td>Rs.16</td>
+                            <td>Rs.28</td>
+                            <td>Rs.60</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">3.</td>
+                            <td>Mother Dairy Curd</td>
+                            <td>Rs.18</td>
+                            <td>Rs.28</td>
+                            <td>Rs.60</td>
+                        </tr>
+                    </table>
+
+                </div><br>
+                <div class="buttermilklist">
+                    <p style="margin-left: 100px; font-family: cursive; font-size: large; font-weight: bold;"> Product
+                        -[ Buttermilk ]</p>
+                    <table>
+                        <tr>
+                            <th>S NO</th>
+                            <th>Brand</th>
+                            <th>250g</th>
+                            <th>500g</th>
+                            <th>1 ltr</th>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">1.</td>
+                            <td>Amul ButterMilk</td>
+                            <td>Rs.12</td>
+                            <td>Rs.25</td>
+                            <td>Rs.50</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">2.</td>
+                            <td>Namaste ButterMilk</td>
+                            <td>Rs.12</td>
+                            <td>Rs.26</td>
+                            <td>Rs.52</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">3.</td>
+                            <td>Mother Dairy ButterMilk</td>
+                            <td>Rs.18</td>
+                            <td>Rs.28</td>
+                            <td>Rs.60</td>
+                        </tr>
+                    </table>
+
+                </div><br>
+                <div class="paneerlist">
+                    <p style="margin-left: 100px; font-family: cursive; font-size: large; font-weight: bold;"> Product
+                        -[ Paneer ]</p>
+                    <table>
+                        <tr>
+                            <th>S NO</th>
+                            <th>Brand</th>
+                            <th>250g</th>
+                            <th>500g</th>
+                            <th>1 Kg</th>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">1.</td>
+                            <td>Mother Dairy Paneer </td>
+                            <td>Rs.75</td>
+                            <td>Rs.150</td>
+                            <td>Rs.300</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">2.</td>
+                            <td>Apna Paneer</td>
+                            <td>Rs.70</td>
+                            <td>Rs.130</td>
+                            <td>Rs.280</td>
+                        </tr>
+
+                    </table>
+
+                </div><br>
+                <div class="gheelist">
+                    <p style="margin-left: 100px; font-family: cursive; font-size: large; font-weight: bold;"> Product
+                        -[ Ghee]</p>
+                    <table>
+                        <tr>
+                            <th>S NO</th>
+                            <th>Brand</th>
+                            <th>250g</th>
+                            <th>500g</th>
+                            <th>1 ltr</th>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">1.</td>
+                            <td>Amul Ghee</td>
+                            <td>Rs.110</td>
+                            <td>Rs.230</td>
+                            <td>Rs.540</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">2.</td>
+                            <td>Hutsun Ghee</td>
+                            <td>Rs.120</td>
+                            <td>Rs.225</td>
+                            <td>Rs.550</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">3.</td>
+                            <td>Mother Dairy Ghee</td>
+                            <td>Rs.125</td>
+                            <td>Rs.250</td>
+                            <td>Rs.500</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">3.</td>
+                            <td>Patanjali Ghee</td>
+                            <td>Rs.140</td>
+                            <td>Rs.295</td>
+                            <td>Rs.610</td>
+                        </tr>
+
+                    </table>
+
+                </div><br>
+                <div class="icecreamlist">
+                    <p style="margin-left: 100px; font-family: cursive; font-size: large; font-weight: bold;"> Product
+                        -[ Icecream ]</p>
+                    <table>
+                        <tr>
+                            <th>S NO</th>
+                            <th>Brand</th>
+                            <th>65ml</th>
+                            <th>l00ml</th>
+                            <th>Tricone</th>
+                            <th>1000ml</th>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">1.</td>
+                            <td>Amul Butterscotch</td>
+                            <td>-</td>
+                            <td>Rs.40</td>
+                            <td>Rs.70</td>
+                            <td>Rs.300</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">2.</td>
+                            <td>Amul Vanialla</td>
+                            <td>Rs.20</td>
+                            <td>Rs.40</td>
+                            <td>Rs.60</td>
+                            <td>Rs.240</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">3.</td>
+                            <td>Amul Kesar Pista</td>
+                            <td>Rs.30</td>
+                            <td>Rs.50</td>
+                            <td>Rs.120</td>
+                            <td>Rs.380</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">4.</td>
+                            <td>Magnum Dark Chocolate</td>
+                            <td>Rs.90</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">5.</td>
+                            <td>Amul Cornotto</td>
+                            <td>-</td>
+                            <td>Rs.40</td>
+                            <td>Rs.60</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">6.</td>
+                            <td>Amul Black Current</td>
+                            <td>Rs.15</td>
+                            <td>Rs.30</td>
+                            <td>Rs.110</td>
+                            <td>Rs.380</td>
+                        </tr>
+                    </table>
+
+                </div><br>
+                <div class="cheeselist">
+                    <p style="margin-left: 100px; font-family: cursive; font-size: large; font-weight: bold;"> Product
+                        -[ Cheese ]</p>
+                    <table>
+                        <tr>
+                            <th>S NO</th>
+                            <th>Brand</th>
+                            <th>Slice</th>
+                            <th>Cube</th>
+                            <th>Brick</th>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">1.</td>
+                            <td>Amul Cheese </td>
+                            <td>Rs.130</td>
+                            <td>Rs.230</td>
+                            <td>Rs.540</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">2.</td>
+                            <td>Milky Mist Dairy Cheese</td>
+                            <td>Rs.120</td>
+                            <td>Rs.225</td>
+                            <td>Rs.550</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">3.</td>
+                            <td>Britannia Cheese</td>
+                            <td>Rs.125</td>
+                            <td>Rs.250</td>
+                            <td>Rs.500</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">3.</td>
+                            <td>Mozzarella cheese</td>
+                            <td>Rs.140</td>
+                            <td>Rs.295</td>
+                            <td>Rs.610</td>
+                        </tr>
+
+                    </table>
+                </div><br>
+                <div class="butterlist">
+                    <p style="margin-left: 100px; font-family: cursive; font-size: large; font-weight: bold;"> Product
+                        -[ Cheese ]</p>
+                    <table>
+                        <tr>
+                            <th>S NO</th>
+                            <th>Brand</th>
+                            <th>100g</th>
+                            <th>250g</th>
+                            <th>500g</th>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">1.</td>
+                            <td>Amul Butter </td>
+                            <td>Rs.48</td>
+                            <td>Rs.120</td>
+                            <td>Rs.225</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">2.</td>
+                            <td>Britannia</td>
+                            <td>Rs.57</td>
+                            <td>Rs.150</td>
+                            <td>Rs.290</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">3.</td>
+                            <td>Mother Dairy</td>
+                            <td>Rs.48</td>
+                            <td>Rs.100</td>
+                            <td>Rs.215</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">3.</td>
+                            <td>Kwality</td>
+                            <td>Rs.40</td>
+                            <td>Rs.100</td>
+                            <td>Rs.230</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <div class="order">
+        <h2>Orders</h2>
+        <div class="buylist">
+        </div>
+    </div>
+    <hr>
+    <div class="bg-white dark:bg-gray-800">
+        <h1 class="text-gray-900 dark:text-white">Dark mode is here!</h1>
+        <p class="text-gray-600 dark:text-gray-300">
+            Lorem ipsum...
+        </p>
+    </div>
+    <div class="contactus">
+        <h2> Contact Us </h2>
+        <h3>Message</h3>
+        <!-- <button type="button" class="bg-indigo-600 ..." disabled> -->
+        <!-- <svg class="motion-safe:animate-spin h-5 w-5 mr-3 ..." viewBox="0 0 24 24">
+              
+            </svg> -->
+
+        <!-- </button> -->
+        <p> Our team provide best quality products to all our customers.</p>
+        <div class="contact">
+            <form action="noaction"><br>
+
+                Name: <br><input type="text" name="" placeholder="Enter your Name"><br>
+
+                Mobile No: <br><input type="text" name="" placeholder=" Enter Contact"><br>
+                <!-- <span class="flex h-3 w-3">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-3 w-3 bg-purple-500"></span>
+                  </span>
+                <button
+                class="transition duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 ...">
+                   SUBMIT NOW
+                </button> -->
+                <button
+                    class="transition  duration-150 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 ...">
+                    SUBMIT NOW
+                </button>
+                <!-- <button class="transition  transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none ...">
+                    Hover me
+                  </button>
+                  <button type="button" class="bg-rose-600 ..." disabled>
+                    <svg class="animate-spin h-5 w-5 mr-3 ..." viewBox="0 0 24 24">
+                      ... -->
+
+                </button>
+                <br>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
